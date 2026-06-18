@@ -6,7 +6,7 @@ metadata:
     tier: front
   name: vote
 spec:
-  replicas: 0
+  replicas: 5
   selector:
     matchLabels:
       app: vote
